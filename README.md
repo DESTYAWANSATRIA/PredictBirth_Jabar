@@ -34,3 +34,13 @@ Dengan demikian, penelitian ini bertujuan untuk **mengeksplorasi data kelahiran 
 | **T (Time-bound)** | Terikat waktu | Dalam periode **2020–2024**, bagaimana tren jumlah kelahiran di setiap kabupaten/kota? <br> Prediksi jumlah kelahiran untuk tahun **2025–2027**. |
 
 ---
+### Total Kelahiran per Tahun
+
+Line chart tren jumlah kelahiran per tahun:
+
+![Total Kelahiran per Tahun](results/figures/Kelahiran pertahun jawa barat.png)
+
+**Insight awal:**  
+- Terdapat fluktuasi jumlah kelahiran dari tahun ke tahun.  
+- Puncak tertinggi terjadi pada 2017–2018.  
+- Tren menurun setelah 2018, kemudian naik lagi pada 2021.  
