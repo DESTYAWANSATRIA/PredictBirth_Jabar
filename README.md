@@ -149,13 +149,13 @@ Line chart tren jumlah kelahiran per tahun:
 
    - Prediksi untuk tahun 2026 menggunakan model linear regression
      <img width="1388" height="989" alt="hasil prediksi kelahiran ditahun 2026" src="https://github.com/user-attachments/assets/6b22be29-f753-49e4-ae88-1dcfa401d452" />
- - Prediksi untuk tahun 2027 menggunakan model linear regression
-   <img width="1388" height="989" alt="Total prediksi kelahiran di Jawa Barat pada tahun 2027" src="https://github.com/user-attachments/assets/e0a9ee2a-2693-432e-9824-b03aeb8c94c0" /> 
- - Perbandingan total prediksi kelahiran di Jawa barat
-   <img width="989" height="590" alt="Perbandingan Total Prediksi Kelahiran di Jawa Barat (2024-2027)" src="https://github.com/user-attachments/assets/7a68ba7c-db9c-46da-8d30-e5855b3275f9" />
-
- - Total Kelahiran di Jawa Barat (2012-2027): Aktual vs. Prediksi
-   <img width="1189" height="690" alt="Total Kelahiran di Jawa Barat (2012-2027) Aktual vs  Prediksi" src="https://github.com/user-attachments/assets/e1f6f220-706a-456b-8ae6-2e70e076dd65" />
+    - Prediksi untuk tahun 2027 menggunakan model linear regression
+      <img width="1388" height="989" alt="Total prediksi kelahiran di Jawa Barat pada tahun 2027" src="https://github.com/user-attachments/assets/e0a9ee2a-2693-432e-9824-b03aeb8c94c0" /> 
+    - Perbandingan total prediksi kelahiran di Jawa barat
+      <img width="989" height="590" alt="Perbandingan Total Prediksi Kelahiran di Jawa Barat (2024-2027)" src="https://github.com/user-attachments/assets/7a68ba7c-db9c-46da-8d30-e5855b3275f9" />
+   
+    - Total Kelahiran di Jawa Barat (2012-2027): Aktual vs. Prediksi
+      <img width="1189" height="690" alt="Total Kelahiran di Jawa Barat (2012-2027) Aktual vs  Prediksi" src="https://github.com/user-attachments/assets/e1f6f220-706a-456b-8ae6-2e70e076dd65" />
 
 ## Kesimpulan
 
