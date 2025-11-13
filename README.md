@@ -140,21 +140,38 @@ Line chart tren jumlah kelahiran per tahun:
         - MAE dan RMSE menunjukkan rata-rata kesalahan prediksi relatif kecil dibandingkan jumlah kelahiran total, menandakan prediksi model cukup akurat.
   
 
-2. **Prediksi Jumlah Kelahiran Masa Depan**  
+2. **Prediksi Jumlah Kelahiran Masa Depan 2024 - 2027**
+   - Prediksi untuk tahun 2024 menggunakan model linear regression
+     <img width="1388" height="989" alt="Total prediksi kelahiran di Jawa Barat pada tahun 2024" src="https://github.com/user-attachments/assets/741f37d5-fd5b-4502-8f7a-966c0556880a" />
+
+   - Prediksi untuk tahun 2025 menggunakan model linear regression
+     <img width="1388" height="989" alt="Total prediksi kelahiran di Jawa Barat pada tahun 2025" src="https://github.com/user-attachments/assets/78959ecd-4e0c-4038-b9ba-6a4171857360" />
+
    - Prediksi untuk tahun 2026 menggunakan model linear regression
      <img width="1388" height="989" alt="hasil prediksi kelahiran ditahun 2026" src="https://github.com/user-attachments/assets/6b22be29-f753-49e4-ae88-1dcfa401d452" />
+ - Prediksi untuk tahun 2027 menggunakan model linear regression
+   <img width="1388" height="989" alt="Total prediksi kelahiran di Jawa Barat pada tahun 2027" src="https://github.com/user-attachments/assets/e0a9ee2a-2693-432e-9824-b03aeb8c94c0" /> 
+ - Perbandingan total prediksi kelahiran di Jawa barat
+   <img width="989" height="590" alt="Perbandingan Total Prediksi Kelahiran di Jawa Barat (2024-2027)" src="https://github.com/user-attachments/assets/7a68ba7c-db9c-46da-8d30-e5855b3275f9" />
+
+ - Total Kelahiran di Jawa Barat (2012-2027): Aktual vs. Prediksi
+   <img width="1189" height="690" alt="Total Kelahiran di Jawa Barat (2012-2027) Aktual vs  Prediksi" src="https://github.com/user-attachments/assets/e1f6f220-706a-456b-8ae6-2e70e076dd65" />
+
+## Kesimpulan
+
+Berdasarkan hasil eksplorasi data, prediksi menggunakan regresi linier, dan evaluasi model, diperoleh beberapa kesimpulan berikut:
 
 ### Kesimpulan SMART
 
 | Huruf | Pertanyaan SMART | Jawaban / Insight dari Proyek |
 |-------|-----------------|-------------------------------|
-| **S (Specific)** | Kabupaten/kota mana di Jawa Barat yang memiliki jumlah kelahiran tertinggi dan terendah? | **Tertinggi:** Kabupaten Bogor (109,275 prediksi 2026) <br> **Terendah:** Kota Banjar (2,523 prediksi 2026) |
-| **M (Measurable)** | Berapa total jumlah kelahiran di Jawa Barat pada 2026? | **771,174 kelahiran** diprediksi terjadi di seluruh Jawa Barat |
-| **A (Achievable)** | Apakah prediksi jumlah kelahiran dapat dilakukan dengan regresi linier? | Ya, model regresi linier menunjukkan performa baik: **R² = 0.976**, **MAE = 2,222**, sehingga prediksi dapat diandalkan |
-| **R (Relevant)** | Apa tren utama jumlah kelahiran berdasarkan data historis dan prediksi? | Tren jumlah kelahiran meningkat hingga 2017–2018, menurun 2019–2020, naik kembali 2021, dan prediksi 2026 menunjukkan **pertumbuhan moderat di kabupaten/kota dengan jumlah kelahiran tinggi** |
-| **T (Time-bound)** | Bagaimana prediksi jumlah kelahiran di masa depan (2024–2026)? | Prediksi regresi linier untuk Jawa Barat: <br> **2024:** 825,000 <br> **2025:** 830,500 <br> **2026:** 771,174 (terperinci per kabupaten/kota) |
+| **S (Specific)** | Kabupaten/kota mana di Jawa Barat yang memiliki jumlah kelahiran tertinggi dan terendah pada 2024–2026? | **Tertinggi:** Kabupaten Bogor (2024: 111,052; 2025: 110,163; 2026: 109,275) <br> **Terendah:** Kota Banjar (2024: 2,552; 2025: 2,538; 2026: 2,523) |
+| **M (Measurable)** | Berapa total jumlah kelahiran di Jawa Barat pada periode 2024–2026? | **2024:** 804,016 <br> **2025:** 797,000 (estimasi) <br> **2026:** 771,174 |
+| **A (Achievable)** | Apakah prediksi jumlah kelahiran dapat dilakukan dengan regresi linier? | Ya, model regresi linier terbukti akurat dengan **R² = 0.976**, **MAE = 2,222**, sehingga prediksi per tahun dan per kabupaten/kota dapat diandalkan. |
+| **R (Relevant)** | Apa tren utama jumlah kelahiran berdasarkan data historis dan prediksi? | - Tren jumlah kelahiran meningkat hingga 2017–2018, menurun 2019–2020, naik 2021. <br> - Prediksi 2024–2026 menunjukkan **penurunan jumlah total kelahiran sedikit**, tetapi kabupaten/kota tertentu tetap tinggi, seperti Bogor, Bekasi, dan Bandung. |
+| **T (Time-bound)** | Bagaimana prediksi jumlah kelahiran di masa depan (2024–2026)? | Prediksi regresi linier per kabupaten/kota: <br> - **2024:** Total 804,016 <br> - **2025:** Total ~797,000 <br> - **2026:** Total 771,174 <br> Prediksi ini membantu perencanaan jangka menengah untuk **kesehatan ibu & anak, pendidikan, dan infrastruktur publik**. |
 
 ### Insight Tambahan
-- Kabupaten/kota dengan jumlah kelahiran tinggi seperti Bogor, Bekasi, dan Bandung perlu perhatian lebih pada **layanan kesehatan ibu & anak, pendidikan, dan infrastruktur publik**.  
-- Kota/kabupaten dengan jumlah kelahiran rendah dapat menjadi fokus program peningkatan **kesejahteraan penduduk dan fasilitas dasar**.  
-- Model regresi linier terbukti cukup akurat untuk memprediksi jumlah kelahiran tahunan, sehingga dapat digunakan sebagai dasar perencanaan pembangunan dan kebijakan publik di Jawa Barat.
+- Kabupaten/kota dengan jumlah kelahiran tinggi (Bogor, Bekasi, Bandung) perlu perhatian lebih pada **layanan publik**.  
+- Kota/kabupaten dengan jumlah kelahiran rendah (Kota Banjar, Kota Cirebon, Kabupaten Pangandaran) bisa menjadi fokus program peningkatan **kesejahteraan dan fasilitas dasar**.  
+- Prediksi regresi linier dapat menjadi acuan **kebijakan pembangunan untuk 3 tahun ke depan**.
