@@ -119,3 +119,42 @@ Line chart tren jumlah kelahiran per tahun:
 - Mati: 23,415  
 
 ---
+
+
+## Metodologi
+1. **Modeling dengan Linear Regression**  
+   - Melatih model pada data training menggunakan data dari tahun 2012 - 2022 sebagai data training dan Menggunakan data 2023 sebagai data test.
+     hasil training:
+     <img width="1489" height="989" alt="Perbandingan Prediksi vs Aktual Jumlah Kelahiran 2023" src="https://github.com/user-attachments/assets/bd221f7b-742a-46d7-bb48-64fa2f594dca" />
+   - Mengevaluasi performa model menggunakan **Mean Absolute Error (MAE)** atau **R² Score**
+
+        | Metrik | Nilai |
+        |--------|-------|
+        | Mean Absolute Error (MAE) | 2,221.79 |
+        | Mean Squared Error (MSE) | 13,181,492.38 |
+        | Root Mean Squared Error (RMSE) | 3,630.63 |
+        | R-squared (R²) | 0.976 |
+
+        **Insight:**  
+        - Nilai R² mendekati 1 menunjukkan model regresi linier dapat menjelaskan hampir semua variansi jumlah kelahiran berdasarkan tahun.  
+        - MAE dan RMSE menunjukkan rata-rata kesalahan prediksi relatif kecil dibandingkan jumlah kelahiran total, menandakan prediksi model cukup akurat.
+  
+
+2. **Prediksi Jumlah Kelahiran Masa Depan**  
+   - Prediksi untuk tahun 2026 menggunakan model linear regression
+     <img width="1388" height="989" alt="hasil prediksi kelahiran ditahun 2026" src="https://github.com/user-attachments/assets/6b22be29-f753-49e4-ae88-1dcfa401d452" />
+
+### Kesimpulan SMART
+
+| Huruf | Pertanyaan SMART | Jawaban / Insight dari Proyek |
+|-------|-----------------|-------------------------------|
+| **S (Specific)** | Kabupaten/kota mana di Jawa Barat yang memiliki jumlah kelahiran tertinggi dan terendah? | **Tertinggi:** Kabupaten Bogor (109,275 prediksi 2026) <br> **Terendah:** Kota Banjar (2,523 prediksi 2026) |
+| **M (Measurable)** | Berapa total jumlah kelahiran di Jawa Barat pada 2026? | **771,174 kelahiran** diprediksi terjadi di seluruh Jawa Barat |
+| **A (Achievable)** | Apakah prediksi jumlah kelahiran dapat dilakukan dengan regresi linier? | Ya, model regresi linier menunjukkan performa baik: **R² = 0.976**, **MAE = 2,222**, sehingga prediksi dapat diandalkan |
+| **R (Relevant)** | Apa tren utama jumlah kelahiran berdasarkan data historis dan prediksi? | Tren jumlah kelahiran meningkat hingga 2017–2018, menurun 2019–2020, naik kembali 2021, dan prediksi 2026 menunjukkan **pertumbuhan moderat di kabupaten/kota dengan jumlah kelahiran tinggi** |
+| **T (Time-bound)** | Bagaimana prediksi jumlah kelahiran di masa depan (2024–2026)? | Prediksi regresi linier untuk Jawa Barat: <br> **2024:** 825,000 <br> **2025:** 830,500 <br> **2026:** 771,174 (terperinci per kabupaten/kota) |
+
+### Insight Tambahan
+- Kabupaten/kota dengan jumlah kelahiran tinggi seperti Bogor, Bekasi, dan Bandung perlu perhatian lebih pada **layanan kesehatan ibu & anak, pendidikan, dan infrastruktur publik**.  
+- Kota/kabupaten dengan jumlah kelahiran rendah dapat menjadi fokus program peningkatan **kesejahteraan penduduk dan fasilitas dasar**.  
+- Model regresi linier terbukti cukup akurat untuk memprediksi jumlah kelahiran tahunan, sehingga dapat digunakan sebagai dasar perencanaan pembangunan dan kebijakan publik di Jawa Barat.
