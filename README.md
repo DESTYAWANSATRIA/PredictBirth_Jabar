@@ -35,6 +35,58 @@ Dengan demikian, penelitian ini bertujuan untuk **mengeksplorasi data kelahiran 
 
 ---
 
+## Dataset
+
+Dataset disimpan di folder `Data/`:
+
+- `Prediksi_Angka_Kelahiran_di_Jawa_Barat.csv` → Data jumlah kelahiran per kabupaten/kota di Jawa Barat (2012–2023), termasuk status kelahiran dan jenis kelamin.
+
+### Contoh Sample Data Per Tahun
+
+| tahun | jumlah_kelahiran |
+|-------|-----------------|
+| 2012  | 406,544         |
+| 2013  | 352,204         |
+| 2014  | 333,441         |
+| 2015  | 896,063         |
+| 2016  | 856,299         |
+| 2017  | 917,556         |
+| 2018  | 911,763         |
+| 2019  | 825,491         |
+| 2020  | 789,541         |
+| 2021  | 867,490         |
+| 2022  | 832,267         |
+| 2023  | 820,059         |
+
+### Contoh Sample Data Per Kabupaten/Kota
+
+| nama_kabupaten_kota      | jumlah_kelahiran |
+|---------------------------|-----------------|
+| KABUPATEN BOGOR           | 1,401,924       |
+| KABUPATEN BEKASI           | 788,397        |
+| KABUPATEN BANDUNG          | 588,031        |
+| KOTA DEPOK                 | 514,713        |
+| KOTA BEKASI                | 429,353        |
+| …                         | …               |
+| KOTA BANJAR                | 20,982         |
+
+### Distribusi Kelahiran Berdasarkan Jenis Kelamin
+
+| jenis_kelamin | jumlah_kelahiran |
+|---------------|-----------------|
+| LAKI-LAKI     | 4,444,375       |
+| PEREMPUAN     | 4,364,343       |
+
+### Distribusi Kelahiran Berdasarkan Status Kelahiran
+
+| status_kelahiran | jumlah_kelahiran |
+|-----------------|-----------------|
+| HIDUP            | 8,785,303       |
+| MATI             | 23,415          |
+
+---
+
+
 ## Eksplorasi Data (EDA)
 
 ### Total Kelahiran per Tahun
@@ -48,3 +100,22 @@ Line chart tren jumlah kelahiran per tahun:
 - Puncak tertinggi terjadi pada 2017–2018.  
 - Tren menurun setelah 2018, kemudian naik lagi pada 2021.  
 
+### Total Kelahiran per Kabupaten/Kota
+
+<img width="1189" height="790" alt="Total Kelahiran per KabupatenKota di Jawa Barat" src="https://github.com/user-attachments/assets/13019726-81c6-4f0d-8c24-8accca4e7b79" />
+
+### Distribusi Kelahiran Berdasarkan Jenis Kelamin
+
+<img width="790" height="790" alt="Distribusi Kelahiran berdasarkan Jenis Kelamin" src="https://github.com/user-attachments/assets/e1e0519d-5bea-4619-ac4c-51d3f7d10488" />
+
+- Laki-laki: 4,444,375  
+- Perempuan: 4,364,343  
+
+### Distribusi Kelahiran Berdasarkan Status Kelahiran
+
+<img width="790" height="590" alt="Distribusi Kelahiran berdasarkan Status Kelahiran" src="https://github.com/user-attachments/assets/8dd62583-008e-48ba-aa43-9c93f1b3e8f8" />
+
+- Hidup: 8,785,303  
+- Mati: 23,415  
+
+---
