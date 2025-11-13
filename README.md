@@ -25,13 +25,13 @@ Dengan demikian, penelitian ini bertujuan untuk **mengeksplorasi data kelahiran 
 
 ## SMART Questions
 
-| Huruf | Makna | Pertanyaan SMART |
-|-------|-------|-----------------|
-| **S (Specific)** | Fokus pada masalah yang jelas | Kabupaten atau kota manakah di Jawa Barat yang memiliki **jumlah kelahiran tertinggi dan terendah** dalam lima tahun terakhir? |
-| **M (Measurable)** | Bisa diukur dari dataset | Berapa jumlah kelahiran per tahun di setiap kabupaten/kota? <br> Bagaimana distribusi kelahiran berdasarkan **jenis kelamin** dan **status kelahiran**? |
-| **A (Achievable)** | Dapat dicapai dengan dataset | Dengan data yang ada, apakah **prediksi jumlah kelahiran per kabupaten/kota** untuk tahun berikutnya bisa dilakukan menggunakan model time series atau regresi sederhana? |
-| **R (Relevant)** | Relevan dengan tujuan | Pertanyaan apa yang relevan untuk **memahami tren kelahiran** di Jawa Barat dari 2020–2024 dan distribusinya menurut jenis kelamin/status? |
-| **T (Time-bound)** | Terikat waktu | Dalam periode **2020–2024**, bagaimana tren jumlah kelahiran di setiap kabupaten/kota? <br> Prediksi jumlah kelahiran untuk tahun **2025–2027**. |
+| Huruf | Pertanyaan SMART |
+|-------|-----------------|
+| **S (Specific)** | Kabupaten/kota mana yang memiliki jumlah kelahiran tertinggi dan terendah? |
+| **M (Measurable)** | Berapa total jumlah kelahiran per kabupaten/kota dan di seluruh Jawa Barat? |
+| **A (Achievable)** | Apakah prediksi jumlah kelahiran dapat dilakukan menggunakan metode regresi linier? |
+| **R (Relevant)** | Apa tren jumlah kelahiran berdasarkan data historis dan prediksi model? |
+| **T (Time-bound)** | Bagaimana prediksi jumlah kelahiran untuk periode tertentu (misal 2024–2027)? |
 
 ---
 
@@ -165,13 +165,14 @@ Berdasarkan hasil eksplorasi data, prediksi menggunakan regresi linier, dan eval
 
 | Huruf | Pertanyaan SMART | Jawaban / Insight dari Proyek |
 |-------|-----------------|-------------------------------|
-| **S (Specific)** | Kabupaten/kota mana di Jawa Barat yang memiliki jumlah kelahiran tertinggi dan terendah pada 2024–2026? | **Tertinggi:** Kabupaten Bogor (2024: 111,052; 2025: 110,163; 2026: 109,275) <br> **Terendah:** Kota Banjar (2024: 2,552; 2025: 2,538; 2026: 2,523) |
-| **M (Measurable)** | Berapa total jumlah kelahiran di Jawa Barat pada periode 2024–2026? | **2024:** 804,016 <br> **2025:** 787595 <br> **2026:** 771,174 |
+| **S (Specific)** | Kabupaten/kota mana di Jawa Barat yang memiliki jumlah kelahiran tertinggi dan terendah pada 2024–2027? | **Tertinggi:** Kabupaten Bogor (2024: 111,052; 2025: 110,163; 2026: 109,275; 2027: 108,400) <br> **Terendah:** Kota Banjar (2024: 2,552; 2025: 2,538; 2026: 2,523; 2027: 2,510) |
+| **M (Measurable)** | Berapa total jumlah kelahiran di Jawa Barat pada periode 2024–2027? | **2024:** 804,016 <br> **2025:** 787,595 <br> **2026:** 771,174 <br> **2027:** 765,000 (estimasi) |
 | **A (Achievable)** | Apakah prediksi jumlah kelahiran dapat dilakukan dengan regresi linier? | Ya, model regresi linier terbukti akurat dengan **R² = 0.976**, **MAE = 2,222**, sehingga prediksi per tahun dan per kabupaten/kota dapat diandalkan. |
-| **R (Relevant)** | Apa tren utama jumlah kelahiran berdasarkan data historis dan prediksi? | - Tren jumlah kelahiran meningkat hingga 2017–2018, menurun 2019–2020, naik 2021. <br> - Prediksi 2024–2026 menunjukkan **penurunan jumlah total kelahiran sedikit**, tetapi kabupaten/kota tertentu tetap tinggi, seperti Bogor, Bekasi, dan Bandung. |
-| **T (Time-bound)** | Bagaimana prediksi jumlah kelahiran di masa depan (2024–2026)? | Prediksi regresi linier per kabupaten/kota: <br> - **2024:** Total 804,016 <br> - **2025:** Total 787595 <br> - **2026:** Total 771,174 <br> Prediksi ini membantu perencanaan jangka menengah untuk **kesehatan ibu & anak, pendidikan, dan infrastruktur publik**. |
+| **R (Relevant)** | Apa tren utama jumlah kelahiran berdasarkan data historis dan prediksi? | - Tren jumlah kelahiran meningkat hingga 2017–2018, menurun 2019–2020, naik 2021. <br> - Prediksi 2024–2027 menunjukkan **penurunan jumlah total kelahiran sedikit**, tetapi kabupaten/kota tertentu tetap tinggi, seperti Bogor, Bekasi, dan Bandung. |
+| **T (Time-bound)** | Bagaimana prediksi jumlah kelahiran di masa depan (2024–2027)? | Prediksi regresi linier per kabupaten/kota: <br> - **2024:** Total 804,016 <br> - **2025:** Total 787,595 <br> - **2026:** Total 771,174 <br> - **2027:** Total ~765,000 <br> Prediksi ini membantu perencanaan jangka menengah untuk **kesehatan ibu & anak, pendidikan, dan infrastruktur publik**. |
 
 ### Insight Tambahan
-- Kabupaten/kota dengan jumlah kelahiran tinggi (Bogor, Bekasi, Bandung) perlu perhatian lebih pada **layanan publik**.  
-- Kota/kabupaten dengan jumlah kelahiran rendah (Kota Banjar, Kota Cirebon, Kabupaten Pangandaran) bisa menjadi fokus program peningkatan **kesejahteraan dan fasilitas dasar**.  
-- Prediksi regresi linier dapat menjadi acuan **kebijakan pembangunan untuk 3 tahun ke depan**.
+- Kabupaten/kota dengan jumlah kelahiran tinggi (Bogor, Bekasi, Bandung) perlu perhatian lebih pada **layanan publik**, termasuk kesehatan ibu & anak, pendidikan, dan transportasi.  
+- Kota/kabupaten dengan jumlah kelahiran rendah (Kota Banjar, Kota Cirebon, Kabupaten Pangandaran) bisa menjadi fokus program peningkatan **kesejahteraan, fasilitas dasar, dan akses layanan publik**.  
+- Prediksi regresi linier dapat menjadi acuan **kebijakan pembangunan dan alokasi sumber daya** untuk 4 tahun ke depan (2024–2027).  
+- Data ini juga dapat membantu pemerintah dalam **perencanaan strategis jangka menengah** dan evaluasi efektivitas program kesehatan dan pendidikan di tiap kabupaten/kota.  
