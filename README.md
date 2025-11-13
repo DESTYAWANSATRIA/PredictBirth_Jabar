@@ -166,10 +166,10 @@ Berdasarkan hasil eksplorasi data, prediksi menggunakan regresi linier, dan eval
 | Huruf | Pertanyaan SMART | Jawaban / Insight dari Proyek |
 |-------|-----------------|-------------------------------|
 | **S (Specific)** | Kabupaten/kota mana di Jawa Barat yang memiliki jumlah kelahiran tertinggi dan terendah pada 2024–2026? | **Tertinggi:** Kabupaten Bogor (2024: 111,052; 2025: 110,163; 2026: 109,275) <br> **Terendah:** Kota Banjar (2024: 2,552; 2025: 2,538; 2026: 2,523) |
-| **M (Measurable)** | Berapa total jumlah kelahiran di Jawa Barat pada periode 2024–2026? | **2024:** 804,016 <br> **2025:** 797,000 (estimasi) <br> **2026:** 771,174 |
+| **M (Measurable)** | Berapa total jumlah kelahiran di Jawa Barat pada periode 2024–2026? | **2024:** 804,016 <br> **2025:** 787595 <br> **2026:** 771,174 |
 | **A (Achievable)** | Apakah prediksi jumlah kelahiran dapat dilakukan dengan regresi linier? | Ya, model regresi linier terbukti akurat dengan **R² = 0.976**, **MAE = 2,222**, sehingga prediksi per tahun dan per kabupaten/kota dapat diandalkan. |
 | **R (Relevant)** | Apa tren utama jumlah kelahiran berdasarkan data historis dan prediksi? | - Tren jumlah kelahiran meningkat hingga 2017–2018, menurun 2019–2020, naik 2021. <br> - Prediksi 2024–2026 menunjukkan **penurunan jumlah total kelahiran sedikit**, tetapi kabupaten/kota tertentu tetap tinggi, seperti Bogor, Bekasi, dan Bandung. |
-| **T (Time-bound)** | Bagaimana prediksi jumlah kelahiran di masa depan (2024–2026)? | Prediksi regresi linier per kabupaten/kota: <br> - **2024:** Total 804,016 <br> - **2025:** Total ~797,000 <br> - **2026:** Total 771,174 <br> Prediksi ini membantu perencanaan jangka menengah untuk **kesehatan ibu & anak, pendidikan, dan infrastruktur publik**. |
+| **T (Time-bound)** | Bagaimana prediksi jumlah kelahiran di masa depan (2024–2026)? | Prediksi regresi linier per kabupaten/kota: <br> - **2024:** Total 804,016 <br> - **2025:** Total 787595 <br> - **2026:** Total 771,174 <br> Prediksi ini membantu perencanaan jangka menengah untuk **kesehatan ibu & anak, pendidikan, dan infrastruktur publik**. |
 
 ### Insight Tambahan
 - Kabupaten/kota dengan jumlah kelahiran tinggi (Bogor, Bekasi, Bandung) perlu perhatian lebih pada **layanan publik**.  
