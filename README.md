@@ -22,3 +22,13 @@ Dengan demikian, penelitian ini bertujuan untuk **mengeksplorasi data kelahiran 
 - Memprediksi jumlah kelahiran per kabupaten/kota di Jawa Barat.  
 - Mengidentifikasi faktor sosial-ekonomi dan kesehatan yang memengaruhi tingkat kelahiran.  
 - Memberikan insight untuk perencanaan pembangunan daerah terkait populasi.
+
+## SMART Questions
+
+| Huruf | Makna | Pertanyaan SMART |
+|-------|-------|-----------------|
+| **S (Specific)** | Fokus pada masalah yang jelas | Kabupaten atau kota manakah di Jawa Barat yang memiliki **angka kelahiran paling rendah** dalam lima tahun terakhir? |
+| **M (Measurable)** | Dapat diukur dengan data | Berapa banyak kabupaten/kota yang memiliki **angka kelahiran di bawah rata-rata provinsi**? <br> Berapa **angka kelahiran terendah dan tertinggi** di provinsi tersebut per tahun? |
+| **A (Achievable)** | Dapat dicapai dengan sumber daya/data yang ada | Dengan data dari BPS dan Dinas Kesehatan, apakah **prediksi jumlah kelahiran** pada tahun berikutnya dapat dilakukan secara akurat menggunakan model regresi atau time series? |
+| **R (Relevant)** | Relevan dengan tujuan proyek | Faktor sosial-ekonomi dan kesehatan apa saja yang **paling memengaruhi tingkat kelahiran** di Jawa Barat (misal pendidikan ibu, pendapatan, fasilitas kesehatan)? <br> Apakah intervensi pemerintah di bidang kesehatan ibu dan anak relevan dengan hasil prediksi? |
+| **T (Time-bound)** | Terikat waktu | Dalam kurun waktu **2020–2024**, bagaimana **tren angka kelahiran** di setiap kabupaten/kota? <br> Dan berapa prediksi angka kelahiran untuk tahun **2025–2027** berdasarkan model yang dibuat? |
