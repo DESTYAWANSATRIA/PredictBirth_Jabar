@@ -1,7 +1,20 @@
-# JabarBirth-Prediction
-**Proyek Prediksi Kelahiran di Jawa Barat**
+# Jabar Birth Prediction Model
+Machine Learning project analyzing and forecasting birth trends in West Java (2012–2027).  
+The model is designed to support public policy planning, resource allocation, and health infrastructure investment.
 
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Dataset](https://img.shields.io/badge/Dataset-2012--2023-blue)
+![Model](https://img.shields.io/badge/Model-Linear_Regression-orange)
 ---
+## 📌 Table of Contents
+- [Latar Belakang](#latar-belakang)
+- [Tujuan Proyek](#tujuan-proyek)
+- [SMART Questions](#smart-questions)
+- [Dataset](#dataset)
+- [Eksplorasi Data (EDA)](#eksplorasi-data-eda)
+- [Metodologi](#metodologi)
+- [Kesimpulan](#kesimpulan)
+
 
 ## Latar Belakang
 
